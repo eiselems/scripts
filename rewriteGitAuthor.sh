@@ -1,5 +1,5 @@
 # rewrites every commit done by WRONG_EMAIL to NEW_NAME / NEW_EMAIL
-# BE AWARE: YOU ARE REWRITTING THOSE COMMITS 
+# BE AWARE: YOU ARE REWRITTING THOSE COMMITS.
 git filter-branch --env-filter '
 WRONG_EMAIL="wrong@example.com"
 NEW_NAME="New Name Value"
